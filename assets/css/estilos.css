@@ -1,0 +1,73 @@
+.container{
+    width: 75%;
+}
+.link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cabecalho, .rodape, .botao__assinar{
+    background-color: #000000;
+}
+.cabecalho{
+    height: 100px;
+}
+.rodape{
+    height: 450px;
+}
+.inicial{
+    background-color: #7D1D9E;
+    height: 500px;
+}
+.botao__plano{
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+.botao__ver__plano{
+    background-color: #DB52E7;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+.borda-azul{
+    border: #FFFFFF;
+    margin: 1.5em;
+    background-color: #3448FF;
+    color: #FFFFFF;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+.botao__assinar{
+    margin: 1em;
+    border-radius: 25px;
+    padding: 1em;
+}
+.texto{
+    width: 600px;
+}
+.album{
+    width: 40%;
+    height: 350px;
+}
+.cartao{
+    height: 750px;
+}
+.principal{
+    color: #5a5a5a;
+}
+.principal-link{
+    font-size: 13px;
+}
+.logo{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #5a5a5a;
+}
+.marca{
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}

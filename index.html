@@ -13,60 +13,68 @@
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="#" class="pt-3">
-                <img src="assets/img/logo.png" alt="Logo da MusicPage" class="marca">
-            </a>
-            <nav>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active link" aria-current="page" href="#">Premium</a>
+    <header class="cabecalho pt-2 pb-2">
+        <nav class="navbar navbar-expand-lg container navbar navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" class="marca" alt="Logo da MusicPage">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav align-items-center gap-2">
+                    <li class="nav-item nav">
+                      <a class="nav-link link" aria-current="page" href="#">Premium</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">Suporte</a>
+                    <li class="nav-item nav">
+                      <a class="nav-link link" href="#">Suporte</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">Baixar</a>
+                    <li class="nav-item nav">
+                      <a class="nav-link link" href="#">Baixar</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link">|</a>
+                    <li class="nav-item nav">
+                      <a class="nav-link disabled">|</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">Inscreva-se</a>
+                    <li class="nav-item nav">
+                      <a class="nav-link link" href="#">Inscrever-se</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">Entrar</a>
+                    <li class="nav-item nav">
+                      <a class="nav-link link" href="#">Entrar</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="inicial">
-        <h1 class="text-center text-light pt-4 pb-4">Bem Vindo ao MusicPage!</h1>
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="me-5">
-                <h2 class="pt-4 pb-4 text-light">3 Meses Gratis de Conta Premium</h2>
-                <p class="pt-3 pb-3 text-light texto">Curta musicas sem anuncio, apenas crie uma conta, com modo online
-                    e offline, venha conosco!</p>
-                <div class="pt-3">
-                    <button class="btn botao__plano">Aproveite 3 Meses Gratis</button>
-                    <button class="btn botao__ver__plano">Ver Planos</button>
                 </div>
+              </div>
+          </nav>
+    </header>
+
+    <section class="inicial pt-5">
+        <div class="container">
+            <h1 class="text-center text-light fs-1 fw-bold pb-4">Bem Vindo ao MusicPage!</h1>
+            <div class="row justify-content-between pt-3 align-items-center pb-5">
+                <div class="col-sm-7">
+                    <h2 class="text-light fs-2 fw-bold pb-4">3 Meses Gratis de Conta Premium</h2>
+                    <p class="pt-4 text-light">Curta musicas sem anuncio, apenas crie uma conta, com modo online
+                        e offline, venha conosco!</p>
+                    <div class="d-grid gap-4 d-md-flex pt-4 pb-5">
+                        <button class="btn botao__plano p-3">Aproveite 3 Meses Gratis</button>
+                        <button class="btn botao__ver__plano p-3">Ver Planos</button>
+                    </div>
+                </div>
+                <img class="col-sm-5 img-fluid" src="assets/img/album.jpg" alt="album do StarBoy">
             </div>
-            <img class="album" src="assets/img/album.jpg" alt="album do StarBoy">
         </div>
     </section>
 
-    <section class="container pt-5">
-        <h2 class="text-center pb-5">Por Que Ser Premium?</h2>
+    <section class="beneficios container pt-5">
+        <h2 class="text-center fs-2 fw-bold pb-5">Por Que Ser Premium?</h2>
         <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
                 <div class="card h-100">
                     <img src="assets/img/offine.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Modo Offline</h5>
-                        <p class="card-text text-center">Ouça musicas onde estiver</p>
+                        <h5 class="card-title text-center fw-bold fs-4">Modo Offline</h5>
+                        <p class="card-text text-center fs-6">Ouça musicas onde estiver</p>
                     </div>
                 </div>
             </div>
@@ -74,8 +82,8 @@
                 <div class="card h-100">
                     <img src="assets/img/pular.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Ouça músicas sem anúncios</h5>
-                        <p class="card-text text-center">Pule quando quiser</p>
+                        <h5 class="card-title text-center fw-bold fs-4">Ouça músicas sem anúncios</h5>
+                        <p class="card-text text-center fs-6">Pule quando quiser</p>
                     </div>
                 </div>
             </div>
@@ -83,8 +91,8 @@
                 <div class="card h-100">
                     <img src="assets/img/curtir.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Ouça músicas sem anúncios</h5>
-                        <p class="card-text text-center">Curta música, sem parar</p>
+                        <h5 class="card-title text-center fw-bold fs-4">Ouça músicas sem anúncios</h5>
+                        <p class="card-text text-center fs-6">Curta música, sem parar</p>
                     </div>
                 </div>
             </div>
@@ -92,22 +100,22 @@
                 <div class="card h-100">
                     <img src="assets/img/celular.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Troque de música o quanto quiser</h5>
-                        <p class="card-text text-center">Pule quando quiser</p>
+                        <h5 class="card-title text-center fw-bold fs-4">Troque de música o quanto quiser</h5>
+                        <p class="card-text text-center fs-6">Pule quando quiser</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container pt-5 pb-5">
-        <h2 class="text-center pb-5">Escolha Seu Plano Premium</h2>
+    <section class="plano container pt-5 pb-5">
+        <h2 class="text-center fs-2 fw-bold pb-5">Escolha Seu Plano Premium</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card cartao">
-                    <p class="borda-azul">3 Meses Gratis com Assinatura</p>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Individual</h5>
+                        <p class="borda-azul">3 Meses Gratis com Assinatura</p>
+                        <h5 class="card-title text-center fs-4 fw-bold">Individual</h5>
                         <p class="card-text text-center">R$ 19,90/mês após o período da oferta</p>
                         <p class="card-text text-center pb-5">1 Conta</p>
                         <hr>
@@ -128,9 +136,9 @@
             </div>
             <div class="col">
                 <div class="card cartao">
-                    <p class="borda-azul">3 Meses Gratis com Assinatura</p>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Duo</h5>
+                        <p class="borda-azul">3 Meses Gratis com Assinatura</p>
+                        <h5 class="card-title text-center fs-4 fw-bold">Duo</h5>
                         <p class="card-text text-center">R$ 24,90/mês após o período da oferta</p>
                         <p class="card-text text-center pb-5">2 Contas</p>
                         <hr>
@@ -154,9 +162,9 @@
             </div>
             <div class="col">
                 <div class="card cartao">
-                    <p class="borda-azul">3 Meses Gratis com Assinatura</p>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Familiar</h5>
+                        <p class="borda-azul">3 Meses Gratis com Assinatura</p>
+                        <h5 class="card-title text-center fs-4 fw-bold">Familiar</h5>
                         <p class="card-text text-center">R$ 34,90/mês após o período da oferta</p>
                         <p class="card-text text-center pb-5">6 Contas</p>
                         <hr>
@@ -187,14 +195,16 @@
 
     <footer class="rodape">
         <div class="container">
-            <div class="d-flex justify-content-between pb-5">
-                <img src="assets/img/logo.png" alt="Logo da MusicPage" class="logo mt-5">
-                <div class="d-flex flex-column pt-5">
+            <div class="row row-cols-1 row-cols-md-5 g-5 pt-5 pb-5">
+                <div class="col">
+                    <img src="assets/img/logo.png" alt="Logo da MusicPage" class="logo">
+                </div>
+                <div class="col d-flex flex-column">
                     <span class="principal">Empresa</span>
                     <a href="#" class="link pt-4">Sobre</a>
                     <a href="#" class="link pt-4">Empregos</a>
                 </div>
-                <div class="d-flex flex-column pt-5">
+                <div class="col d-flex flex-column">
                     <span class="principal">Comunidade</span>
                     <a href="#" class="link pt-4">Artistas</a>
                     <a href="#" class="link pt-4">Desenvolvedores</a>
@@ -202,13 +212,13 @@
                     <a href="#" class="link pt-4">Fornecedores</a>
                     <a href="#" class="link pt-4">Publicidade</a>
                 </div>
-                <div class="d-flex flex-column pt-5">
+                <div class="col d-flex flex-column">
                     <span class="principal">Links</span>
                     <a href="#" class="link pt-4">Suporte</a>
                     <a href="#" class="link pt-4">Aplicativos</a>
                     <a href="#" class="link pt-4">Player</a>
                 </div>
-                <div class="mt-5">
+                <div class="col d-flex gap-1 pt-4">
                     <a href="#">
                         <img src="assets/img/instagram_logo.png" alt="Logo Instagram" class="logo me-3">
                     </a>
@@ -220,16 +230,18 @@
                     </a>  
                 </div>
             </div>
-            <div class="pt-4 pb-4 d-flex justify-content-between">
-                <nav class="d-flex mb-3">
-                    <a href="#" class="principal-link nav-link pe-5">Legal</a>
-                    <a href="#" class="principal-link nav-link pe-5">Centro de Publicidade</a>
-                    <a href="#" class="principal-link nav-link pe-5">Politica de Privacidade</a>
-                    <a href="#" class="principal-link nav-link pe-5">Cookies</a>
-                    <a href="#" class="principal-link nav-link">Sobre Anuncios</a>
-                </nav>
-                <div>
-                    <span class="principal principal-link pe-4">Brasil</span>
+            <div class="row align-items-center d-flex justify-content-between gap-4 pt-5">
+                <div class="col">
+                    <nav class="d-flex justify-content-between gap-4">
+                        <a href="#" class="principal-link nav-link">Legal</a>
+                        <a href="#" class="principal-link nav-link">Centro de Publicidade</a>
+                        <a href="#" class="principal-link nav-link">Politica de Privacidade</a>
+                        <a href="#" class="principal-link nav-link">Cookies</a>
+                        <a href="#" class="principal-link nav-link">Sobre Anuncios</a>
+                    </nav>
+                </div>
+                <div class="col d-flex justify-content-end gap-3">
+                    <span class="principal principal-link">Brasil</span>
                     <span class="principal principal-link">© 2022 MusicPage</span>
                 </div>
             </div>

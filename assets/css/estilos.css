@@ -8,15 +8,20 @@
 .cabecalho, .rodape, .botao__assinar{
     background-color: #000000;
 }
-.cabecalho{
-    height: 100px;
-}
 .rodape{
-    height: 450px;
+    padding-top: 2em;
+    padding-bottom: 4em;
 }
 .inicial{
     background-color: #7D1D9E;
-    height: 500px;
+    
+}
+.beneficios{
+    margin-top: 4em;
+}
+.plano{
+    margin-top: 5em;
+    margin-bottom: 2em;
 }
 .botao__plano{
     background-color: #333333;
@@ -29,35 +34,24 @@
     border-radius: 25px;
 }
 .borda-azul{
-    border: #FFFFFF;
-    margin: 1.5em;
+    margin: .5em;
     background-color: #3448FF;
     color: #FFFFFF;
     text-align: center;
-    width: 300px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-bottom: 2em;
 }
 .botao__assinar{
     margin: 1em;
     border-radius: 25px;
     padding: 1em;
 }
-.texto{
-    width: 600px;
-}
-.album{
-    width: 40%;
-    height: 350px;
-}
-.cartao{
-    height: 750px;
-}
 .principal{
     color: #5a5a5a;
 }
 .principal-link{
-    font-size: 13px;
+    font-size: 11px;
 }
 .logo{
     border-radius: 30px;
@@ -70,4 +64,18 @@
     height: 60px;
     background-color: #FFFFFF;
     border-radius: 30px;
+}
+@media screen and (max-width: 768px) {
+    .disabled{
+        display: none;
+    }
+    .card{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cartao{
+        height: 800px;
+    }
 }
